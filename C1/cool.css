@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(0, 0, 128);
+    background-color: rgb(250, 218, 221);
+}
+h1,h2,h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    text-decoration: overline underline;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+hr {
+    border: 2px solid red;
+}
+.hot {
+    letter-spacing: 6px;
+    color: hotpink;
+    font-style: italic;
+    background-color: yellow;
+}
+.cold {
+    font-weight:bold;
+    color: rgb(0, 150, 255);
+    background-color: rgb(175,238,238);
+    letter-spacing: 20px;
+    text-align: center;
+}
+.main:hover {
+    color:rgb(237, 212, 48) ;
+    background-color: rgb(95, 163, 52);
+    }
+    /* Stylesheet created by Samruddhi Lokhande*/
