@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index Page</title>
+    </head>
+    <style>
+       body {
+      background-image: url("Cake.jpg");
+      font-weight: bold;
+       }
+        .head {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 60px;
+
+        }
+        .main {
+           margin-top: 50px ;
+           margin-left: 450px;
+           line-height: 2.5;
+          
+        }
+        .main2 {
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 50px;
+            font-size: 40px;
+          
+        }
+        .main3 {
+            border: 3px solid black;
+            font-size: 30px;
+           margin-left: 20px;
+           margin-top: 50px;
+        }
+        .main4 {
+            margin-top: 35px;
+            border: 3px solid black;
+            font-size: 30px;
+           margin-left: 680px;
+       
+        }
+        .main5 {
+            margin-left: 660px;
+        }
+        .main6 {
+           margin-left: 1000px;
+            border: 3px solid black;
+            font-size: 30px;
+            background-color: rgb(44, 207, 193);
+        }
+    </style>
+    <body>
+        <h1 class="head">Grand Pie Company</h1>
+           <p class="main2">Menu</p>
+          <div>
+          <button type="button" onclick="myfunction()" class="main3">CupCakes</button>
+          <ol id="demo">
+            <li style="color: white;">Dark Chocolate  CupCake</li>
+            <li style="color: white;">Sweet Vanilla  CupCake</li>
+            <li style="color: white;">Boston Cream CupCake</li>
+            <li style="color: white;">Chocolate Brownie  CupCake</li>
+            <li style="color: white;">Butterscotch  CupCake</li>
+        </ol>
+        <script>
+            function myfunction()
+         {        
+       document.getElementById("demo").style.background = "pink";
+       document.getElementById("demo").style.fontSize = "25px";
+    }
+    </script>
+    </div>
+       <div> 
+        <button type="button" onclick="myfunction2()" class="main4">Pie Cakes</button>
+        <ol id="demo2">
+            <li style="color: white;" class="main5">Sweet Strawberry Pie Cake</li>
+            <li style="color: white;" class="main5">Coconut Pie Cake</li>
+            <li style="color: white;" class="main5">Cheese Creamy Pie Cake</li>
+            <li style="color: white;" class="main5">Banana and Vanilla Pie Cake</li>
+            <li style="color: white;" class="main5">White Chocolate Pie Cake</li>
+        </ol>
+        <script>
+            function myfunction2()
+         {        
+       document.getElementById("demo2").style.background = "lightgreen";
+       document.getElementById("demo2").style.fontSize = "25px";
+         }
+    </script>
+       </div>
+       <div>
+        <button type="button" onclick="myfunction3()" class="main3">Desserts</button>
+        <ol id="demo3">
+            <li style="color: white;">Sweet Cherry Dessert</li>
+            <li style="color: white;">Lovely Pink Dessert</li>
+            <li style="color: white;">Apple Pudding Dessert</li>
+            <li style="color: white;">Banana Pudding Dessert</li>
+            <li style="color: white;">White Chocolate Pudding Dessert</li>
+        </ol>
+    <script>
+            function myfunction3()
+         {        
+       document.getElementById("demo3").style.background = "lightblue";
+       document.getElementById("demo3").style.fontSize = "25px";
+         }
+    </script>
+    </div>
+    <a href="Pie.html" class="main6">Click Here...</a>
+    </body>
+</html>
